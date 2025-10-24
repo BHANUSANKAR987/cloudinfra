@@ -5,3 +5,6 @@ provider "aws"{
 resource "aws_s3_bucket" "bucket"{
  bucket ="bhanuboxers"
 }
+resource "aws_s3_bucket" "bucket1"{
+ bucket ="bhanuboxers1"
+ }
